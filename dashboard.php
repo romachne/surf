@@ -24,10 +24,10 @@ if (!isset($_SESSION['admin_session']) )
         <aside>
             <p>Connected as, <?= strip_tags($_SESSION['admin_session']) ?></p>
             <ul>
-                <li><a href="">Dashboard</a></li>
-                <li><a href="">Add Admin</a></li>
-                <li><a href="">Add Product</a></li>
-                <li><a href="">List Products</a></li>
+                <li><a href="dashboard.php">Dashboard</a></li>
+                <li><a href="add-admin.php">Add Admin</a></li>
+                <li><a href="add-product.php">Add Product</a></li>
+                <li><a href="list-products.php">List Products</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
         </aside>
@@ -35,7 +35,7 @@ if (!isset($_SESSION['admin_session']) )
     </div>
 
     <footer>
-        <?= date("Y") ?> Â© Roma Sychev
+        <?= date("Y") ?> © Roma Sychev
     </footer>
 </main>
 </body>
