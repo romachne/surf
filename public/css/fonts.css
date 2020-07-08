@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Text-Bold";
+    src: url("../fonts/Kelvinch-Bold.otf");
+}
+
+@font-face {
+    font-family: "Text-BoldItalic";
+    src: url("../fonts/Kelvinch-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: "Text-Italic";
+    src: url("../fonts/Kelvinch-Italic.otf");
+}
+
+@font-face {
+    font-family: "Text-Roman";
+    src: url("../fonts/Kelvinch-Roman.otf");
+}
+
+@font-face {
+    font-family: "Logo";
+    src: url("../fonts/GlyphWorld-Flower.otf");
+}
