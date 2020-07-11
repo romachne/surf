@@ -8,15 +8,15 @@
         require_once ROOT."../includes/classes/admin-class.php";
 
 		$admins 	= new Admins($dbh);
-		$articlesSurfing = $admins->fetchArticlesSurfing();
+		$articlesKitesurfing = $admins->fetchArticlesKitesurfing();
     ?>
 
 	<main>
-		<h1>Сёрфинг</h1>
-            <?php if (isset($articlesSurfing)) :?>
-				<?php foreach ($articlesSurfing as $article) :?>
+		<h1>Кайтсёрфинг</h1>
+            <?php if (isset($articlesKitesurfing)) :?>
+				<?php foreach ($articlesKitesurfing as $article) :?>
                     <div class="article-head">
-                        <h2><a href="view-article.php?id=<?= $article->id ?>&tag=surfing" title="Click to view product"><?= htmlspecialchars(strip_tags($article->headline)) ?></a></h2>
+                        <h2><a href="view-article.php?id=<?= $article->id ?>&tag=kitesurfing" title="Click to view product"><?= htmlspecialchars(strip_tags($article->headline)) ?></a></h2>
                         <h3><?= htmlspecialchars(strip_tags($article->head2)) ?></h3>
                     </div>
 				<?php endforeach ?>

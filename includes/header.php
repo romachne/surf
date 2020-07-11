@@ -17,12 +17,12 @@
 <body>
     <header>
 		<div class="header-left">
-			<a href="index.php" class="logo">Surf</a>
+			<a href="../surf" class="logo">Surf</a>
 			<div class="menu">
-				<a href="#" class="menu__element">tratata</a>
-				<a href="#" class="menu__element">tratata</a>
-				<a href="#" class="menu__element">tratata</a>
-				<a href="#" class="menu__element">tratata</a>
+				<a href="index.php" class="menu__element">сёрфинг</a>
+				<a href="kitesurfing.php" class="menu__element">кайтсёрфинг</a>
+				<a href="sapsurfing.php" class="menu__element">сапсёрфинг</a>
+				<a href="wakeboarding.php" class="menu__element">вейкбординг</a>
 			</div>
 		</div>
 		<a href="login.php" class="header-right">Вход для<br>редакторов</a>
