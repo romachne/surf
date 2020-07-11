@@ -8,9 +8,9 @@
         	// Change the database setting with yours accordingly
             private $dbengine   = 'mysql';
             private $dbhost     = 'localhost';
-            private $dbuser     = 'root'; // Set your database username
-            private $dbpassword = 'roma1488chne'; //Set your database password
-            private $dbname     = 'surf'; // This can be changed too into yours
+            private $dbuser     = 'std_917'; // Set your database username
+            private $dbpassword = 'sexpunk228'; //Set your database password
+            private $dbname     = 'std_917'; // This can be changed too into yours
 
         	// Set the database handler to null
         	public $dbh = null;
