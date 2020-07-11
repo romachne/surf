@@ -17,7 +17,7 @@
 <body>
     <header>
 		<div class="header-left">
-			<a href="index.php class="logo">Surf</a>
+			<a href="index.php" class="logo">Surf</a>
 			<div class="menu">
 				<a href="index.php" class="menu__element">сёрфинг</a>
 				<a href="kitesurfing.php" class="menu__element">кайтсёрфинг</a>
