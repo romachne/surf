@@ -7,7 +7,7 @@
         {
         	// Change the database setting with yours accordingly
             private $dbengine   = 'mysql';
-            private $dbhost     = 'localhost';
+            private $dbhost     = 'std-mysql';
             private $dbuser     = 'std_917'; // Set your database username
             private $dbpassword = 'sexpunk228'; //Set your database password
             private $dbname     = 'std_917'; // This can be changed too into yours
